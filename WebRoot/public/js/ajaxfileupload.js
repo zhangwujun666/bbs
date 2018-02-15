@@ -86,11 +86,13 @@ jQuery.extend({
 			var io = document.getElementById(frameId);
 			try{    
 				if(io.contentWindow){
-					xml.responseText = io.contentWindow.document.body?io.contentWindow.document.body.innerHTML:null;
-					xml.responseXML = io.contentWindow.document.XMLDocument?io.contentWindow.document.XMLDocument:io.contentWindow.document;
+					//xml.responseText = io.contentWindow.document.body?io.contentWindow.document.body.innerHTML:null;
+                    xml.responseText = io.contentWindow.document.body?io.contentWindow.document.body.innerText:null;
+                    xml.responseXML = io.contentWindow.document.XMLDocument?io.contentWindow.document.XMLDocument:io.contentWindow.document;
 			    }else if(io.contentDocument){
-			    	xml.responseText = io.contentDocument.document.body?io.contentDocument.document.body.innerHTML:null;
-			    	xml.responseXML = io.contentDocument.document.XMLDocument?io.contentDocument.document.XMLDocument:io.contentDocument.document;
+			    	//xml.responseText = io.contentDocument.document.body?io.contentDocument.document.body.innerHTML:null;
+                    xml.responseText = io.contentDocument.document.body?io.contentDocument.document.body.innerText:null;
+                    xml.responseXML = io.contentDocument.document.XMLDocument?io.contentDocument.document.XMLDocument:io.contentDocument.document;
 			    }      
 			}catch(e){
 				jQuery.handleError(s, xml, null, e);
