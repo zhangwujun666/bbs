@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="bbs">
+    <output-path>$USER_HOME$/eclipse/apache-tomcat-7.0.68/webapps</output-path>
+    <root id="archive" name="bbs.war">
+      <element id="javaee-facet-resources" facet="bbs/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bbs" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
