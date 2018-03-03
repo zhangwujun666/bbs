@@ -13,7 +13,7 @@ function showhidediv(){
   <div id="toptb" class="cl"> 
    <div class="wp"> 
     <div class="z"> 
-     <a href="${path}/" title="${applicationScope.bbsinfo.name}"><img src="${path}/file/${applicationScope.bbsinfo.logoimg}" alt="${applicationScope.bbsinfo.name}" width="140" /></a> 
+     <a href="${path}/" title="${applicationScope.bbsinfo.name}"><img src="${path}/file/${applicationScope.bbsinfo.logoimg}" alt="${applicationScope.bbsinfo.name}" width="200" /></a>
     </div> 
     <div class="z qing_toptb"> 
      <ul> 
