@@ -181,27 +181,27 @@
       <zipfileset dir="${basedir}/WebRoot"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/web.xml" prefix="WEB-INF"/>
       <zipfileset dir="${bbs.output.dir}" prefix="WEB-INF/classes"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/el-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/jasper.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/jsp-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/catalina.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/ecj-4.4.2.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/jasper-el.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/catalina-ha.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/servlet-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-dbcp.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-jdbc.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-util.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/catalina-ant.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-coyote.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/websocket-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-i18n-es.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-i18n-fr.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat-i18n-ja.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/annotations-api.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/catalina-tribes.jar" prefix="WEB-INF/lib"/>
-      <zipfileset file="${basedir}/../../eclipse/apache-tomcat-7.0.68/lib/tomcat7-websocket.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/el-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/jasper.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/jsp-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/catalina.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/ecj-4.4.2.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/jasper-el.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/catalina-ha.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/servlet-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-dbcp.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-jdbc.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-util.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/catalina-ant.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-coyote.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/websocket-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-i18n-es.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-i18n-fr.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat-i18n-ja.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/annotations-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/catalina-tribes.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="/usr/local/src/apache-tomcat-7.0.82/lib/tomcat7-websocket.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/json.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/log4j.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/jsf-api.jar" prefix="WEB-INF/lib"/>
