@@ -205,10 +205,12 @@
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/json.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/log4j.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/jsf-api.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/jsp-api.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/jsf-impl.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/jstl-1.2.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/gson-2.2.4.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" prefix="WEB-INF/lib"/>
+      <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/servlet-api.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/druid-1.0.20.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/mybatis-3.1.1.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/WebRoot/WEB-INF/lib/ueditor-1.1.2.jar" prefix="WEB-INF/lib"/>
