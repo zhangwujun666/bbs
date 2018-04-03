@@ -39,7 +39,7 @@
 					slideImgLinks[${status.index +1}] = '${path}/post/${pic.tieziid}_1_1.html';
 					slideImgTexts[${status.index +1}] = '${pic.name}';
 		           </c:forEach>
-			</script> 
+			</script>
             <script src="${path}/public/js/index/forum_slide.js" type="text/javascript"></script> 
            </div> 
            

@@ -15,10 +15,28 @@
   </select>
   
   <select id="selectbyindex" resultType="map" parameterType="cc.javaee.bbs.model.Pic" >
-    SELECT 
-    t1.id, t1.path, t1.tieziid, t1.bankuaiid, t1.pictype, t1.createuserid, t1.width, t1.height, t1.isdel,t2.name
-    FROM jbbs_pic t1 LEFT JOIN jbbs_tiezi t2 ON t1.tieziid=t2.id
-    WHERE t1.tieziid IS NOT NULL AND t1.width > t1.height AND t1.pictype='0' AND t1.isdel='0' AND t2.isuse='1' ORDER BY id DESC
+    SELECT
+    t1.id,
+    t1.path,
+    t1.tieziid,
+    t1.bankuaiid,
+    t1.pictype,
+    t1.createuserid,
+    t1.width,
+    t1.height,
+    t1.isdel,
+    t2.NAME
+    FROM
+    jbbs_pic t1
+    LEFT JOIN jbbs_tiezi t2 ON t1.tieziid = t2.id
+    WHERE
+    t1.tieziid IS NOT NULL
+    <!--AND t1.width > t1.height-->
+    AND t1.pictype = '0'
+    AND t1.isdel = '0'
+    AND t2.isuse = '1'
+    ORDER BY
+    id DESC
     LIMIT 0,5
   </select>
   
