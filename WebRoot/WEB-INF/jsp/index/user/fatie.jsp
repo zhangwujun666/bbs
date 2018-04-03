@@ -58,7 +58,7 @@
 
  <%@ include file="/WEB-INF/inc/top.jsp"%>
  <div id="wp" class="wp"></div> 
-  <div class="qing_forum_thumb cl" style="background:url(${path}/css/img/banner/common_2_banner.jpg) no-repeat center top;"> 
+  <div class="qing_forum_thumb cl" style="background:url(${path}/css/img/banner/common_2_banner.png) no-repeat center top;">
    <div class="wp cl"> 
     <div id="pt" class="cl"> 
      <div class="z"> 

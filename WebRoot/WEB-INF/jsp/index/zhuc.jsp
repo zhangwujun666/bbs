@@ -189,7 +189,7 @@
              </tr> 
              <tr> 
               <th><span class="rq"></span><label for="ZODRdi">邮箱:</label></th> 
-              <td><input type="text" name="email" id="email" class="px"  size="25" maxlength="15"  /></td> 
+              <td><input type="text" name="email" id="email" class="px"  size="25" maxlength="30"  /></td>
               <td class="tipcol" colspan="3">
               <i id="emailspan" class="p_tip"></i>
               </td> 
