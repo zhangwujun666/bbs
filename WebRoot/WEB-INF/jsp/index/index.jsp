@@ -21,7 +21,8 @@
        <tbody>
         <tr> 
          <td valign="top" class="category_l1"> 
-          <div class="newimgbox"> 
+          <div class="newimgbox">
+           <%--首页轮播图插件（修改）--%>
            <div class="module cl slidebox_grid"> 
             <script type="text/javascript">
 					var slideSpeed = 4000;
