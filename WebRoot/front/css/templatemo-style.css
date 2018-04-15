@@ -27,7 +27,7 @@ hr {
 
 /* START NAVIGATION */
 
-#logo_img{
+.logo_img{
   width: 250px;
 }
 .sticky-navigation { opacity: 0; }

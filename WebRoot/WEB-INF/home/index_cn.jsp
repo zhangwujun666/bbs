@@ -30,7 +30,7 @@
 						<span class="icon icon-bar"></span>
 					</button>
 					<a href="#" class="navbar-brand">
-						<img id="logo_img" src="front/images/GeekLimits_logo_3_transplants.png">
+						<img class="logo_img" src="front/images/GeekLimits_logo_3_transplants.png">
 					</a>
 				</div>
 				<nav class="collapse navbar-collapse" id="rock-navigation">
@@ -57,7 +57,7 @@
 					<div class="row">
 						<div class="col-md-2 col-sm-1"></div>
 						<div class="col-md-8 col-sm-10">
-							<h1 class="tm-home-title"><strong>GeekLimits</strong></h1>
+							<%--<h1 style="color: white;" class="tm-home-title"><strong>GeekLimits</strong></h1>--%>
 							<h2 class="tm-home-subtitle">可能是最精致，最细节，最客观，最适合大学生的笔记本信息枢纽</h2>
 							<p>一个神奇的网站 <strong>可以GET很多崭新的技能</strong> 以及！ <strong>一些果粉念念不忘的讯息 </strong> 和这里的伙计们说说自己的特殊属性 <strong>分享</strong> 还有！ <strong>学点东西XD </strong>新技能，新知识。</p> <br ><p> Thank you :D</p>
 							<a href="#work" class="btn btn-default smoothScroll tm-view-more-btn">下面开始划重点！</a>
