@@ -24,8 +24,13 @@ hr {
   text-transform: uppercase;
 }
 
+
 /* START NAVIGATION */
-/*.sticky-navigation { opacity: 0; }*/
+
+#logo_img{
+  width: 250px;
+}
+.sticky-navigation { opacity: 0; }
 .navbar-default {
   background: #fff;
   border: none;

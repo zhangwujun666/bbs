@@ -58,21 +58,21 @@ h1 {
 	margin-bottom: 35px;
 }
 </style>
-<script type="text/javascript">
-	var i = 9;
-	function bload() {
-		setInterval("index()", 1000);
-	}
+<%--<script type="text/javascript">--%>
+	<%--var i = 9;--%>
+	<%--function bload() {--%>
+		<%--setInterval("index()", 1000);--%>
+	<%--}--%>
 
-	function index() {
-		document.getElementById("indexdiv").innerHTML = i;
-		if (i <= 1) {
-			window.location = "${path}/";
-		}
-		i--;
+	<%--function index() {--%>
+		<%--document.getElementById("indexdiv").innerHTML = i;--%>
+		<%--if (i <= 1) {--%>
+			<%--window.location = "${path}/";--%>
+		<%--}--%>
+		<%--i--;--%>
 
-	}
-</script>
+	<%--}--%>
+<%--</script>--%>
 
 
 </head>

@@ -68,21 +68,22 @@ jQuery(document).ready(function($){
 
     /* NAVIGATION VISIBLE ON SCROLL */
     mainNav();
+
     $(window).scroll(function () {
         mainNav();
     });
 
-    // function mainNav() {
-    //     var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-    //     if (top > 40) $('.sticky-navigation').stop().animate({
-    //         "opacity": '1',
-    //         "top": '0'
-    //     });
-    //     else $('.sticky-navigation').stop().animate({
-    //         "opacity": '0',
-    //         "top": '-75'
-    //     });
-    // }
+    function mainNav() {
+        var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+        if (top > 40) $('.sticky-navigation').stop().animate({
+            "opacity": '1',
+            "top": '0'
+        });
+        else $('.sticky-navigation').stop().animate({
+            "opacity": '1',
+            "top": '0'
+        });
+    }
 
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK

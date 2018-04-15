@@ -70,10 +70,20 @@ public class IndexController {
 		link.setBankuaiid(0);
 		List<Link> linklist = linkService.find(link);
 		model.addAttribute("linklist", linklist);
+//		if(Tool.ismobile(request)){
+//			return "jsp/mobile/index";
+//		}else{
+//			return "jsp/index/index";
+//		}
 		if(Tool.ismobile(request)){
-			return "jsp/mobile/index";
+			return "home/index_cn";
 		}else{
-			return "jsp/index/index";
+			return "home/index_cn";
 		}
+	}
+	@RequestMapping("index.html")
+	public String index() {
+
+			return "front/index.html";
 	}
 }
