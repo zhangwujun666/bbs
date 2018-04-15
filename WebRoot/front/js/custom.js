@@ -74,7 +74,16 @@ jQuery(document).ready(function($){
     });
 
     function mainNav() {
-        var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+        // var top = (document.documentElement && document.documentElement.scrollTop) || document.documentElement.scrollTop;
+        // 修复不能锁定窗口问题
+        var top;
+        if (typeof window.pageYOffset != 'undefined') {
+            top = window.pageYOffset;
+        } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+            top = document.documentElement.scrollTop;
+        } else if (typeof document.body != 'undefined') {
+            top = document.body.scrollTop;
+        }
         if (top > 40) $('.sticky-navigation').stop().animate({
             "opacity": '1',
             "top": '0'

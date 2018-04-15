@@ -339,8 +339,8 @@
 		<script src="front/js/jquery.js"></script>
 		<script src="front/js/bootstrap.min.js"></script>
 		<script src="front/js/smoothscroll.js"></script>
-		<%--<script src="front/js/jquery.nav.js"></script>--%>
-		<script src="https://cdn.bootcss.com/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
+		<script src="front/js/jquery.nav.js"></script>
+		<%--https://cdn.bootcss.com/jquery-one-page-nav/3.0.0/jquery.nav.min.js--%>
 		<script src="front/js/isotope.js"></script>
 		<script src="front/js/imagesloaded.min.js"></script>
 		<script src="front/js/custom.js"></script>

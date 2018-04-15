@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ include file="/WEB-INF/inc/taglibs.jsp"%>
-<%--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">--%>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -47,10 +47,6 @@
 			</div>
 		</div>
 		<!-- END NAVIGATION -->
-
-
-
-
 			<!-- START 首勒个页 -->
 			<section id="home" class="templatemo-home">
 				<div class="container">
@@ -305,11 +301,6 @@
 				</div>
 			</section>
 			<!-- END 来找咱们 -->
-
-
-
-
-
 		<!-- START 首页意见 -->
 		<section id="contact" class="tm-contact">
 			<div class="container">
@@ -348,7 +339,6 @@
 		<script src="front/js/bootstrap.min.js"></script>
 		<script src="front/js/smoothscroll.js"></script>
 		<script src="front/js/jquery.nav.js"></script>
-		<%--<script src="https://cdn.bootcss.com/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>--%>
 		<script src="front/js/isotope.js"></script>
 		<script src="front/js/imagesloaded.min.js"></script>
 		<script src="front/js/custom.js"></script>
