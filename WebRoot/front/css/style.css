@@ -1678,7 +1678,7 @@ span.color7{
 	float: left;
 	position: relative;
 	border: 1px solid #F0F0F0;
-	display: none;
+	/*display: none;*/
 }
 #products .next, #products .prev {
 	position: absolute;
