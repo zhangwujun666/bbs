@@ -40,7 +40,7 @@
 						<li><a href="#portfolio" class="smoothScroll">最近测评</a></li>
 						<li><a href="#work" class="smoothScroll">主要版块</a></li>
 						<li><a href="#about" class="smoothScroll">一日一技</a></li>
-						<li><a href="#contact" class="sy-fanhui">来找咱们</a></li>
+						<li><a href="#contact" class="smoothScrol">来找咱们</a></li>
 					</ul>
 				</nav>
 
@@ -65,6 +65,9 @@
 						<div class="col-md-2 col-sm-1"></div>
 					</div>
 				</div>
+				<div id="device"></div>
+
+				</div> <!--! end of #container -->
 			</section>
 			<!-- END 首勒个页 -->
 
@@ -345,6 +348,7 @@
 		<script src="front/js/bootstrap.min.js"></script>
 		<script src="front/js/smoothscroll.js"></script>
 		<script src="front/js/jquery.nav.js"></script>
+		<%--<script src="https://cdn.bootcss.com/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>--%>
 		<script src="front/js/isotope.js"></script>
 		<script src="front/js/imagesloaded.min.js"></script>
 		<script src="front/js/custom.js"></script>
